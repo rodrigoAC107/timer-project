@@ -1,0 +1,24 @@
+@import "../../assets/style/variables.scss";
+
+.number__wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.number__item {
+  border: none;
+  width: 155px;
+  height: auto;
+  font-size: 8rem;
+  background-color: $primary-color;
+  color: $white-color;
+}
+
+.buttons__wrapper button {
+  margin: 20px;
+  border: none;
+  background-color: $button-color;
+  font-size: 1.5rem;
+  color: $white-color;
+  text-transform: uppercase;
+}

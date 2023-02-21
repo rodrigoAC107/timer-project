@@ -1,0 +1,36 @@
+@import "../../assets/style/variables.scss";
+
+.navbar__item-wrapper {
+  width: 100%;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  color: #213547 !important;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.navbar__item {
+  width: 100px;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.navbar__item:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: #000000;
+  font-weight: 500;
+}
+
+.navbar__link__active {
+  border: 1px solid $white-color;
+  border-radius: 5px;
+  padding: 5px;
+  color: $white-color;
+  font-weight: 700;
+}
